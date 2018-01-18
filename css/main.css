@@ -1,5 +1,5 @@
 html {
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
 }
 
 .content {
@@ -14,22 +14,21 @@ html {
 
 @media only screen and (min-width: 38em) {
 
-.btn-wrap {
-  text-align: right;
-}
+  .btn-wrap {
+    text-align: right;
+  }
 
-.text {
-  margin-bottom: 1em;
-}
+  .text {
+    margin-bottom: 1em;
+  }
 
-.btn {
-  margin-bottom: 0;
-}
+  .btn {
+    margin-bottom: 0;
+  }
 
-.all {
-  position: relative;
-}
-
+  .all {
+    position: relative;
+  }
 
 }
 
@@ -38,13 +37,13 @@ html {
   .all {
     max-height: 500px;
     overflow: hidden;
-    background-image: linear-gradient(rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
   .content {
     position: absolute;
     bottom: 0;
-    background-color: rgba(73, 85, 98, 0)
+    background-color: rgba(73, 85, 98, 0);
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
   .btn {
